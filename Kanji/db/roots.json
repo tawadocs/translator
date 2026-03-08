@@ -449,11 +449,12 @@
     },
     {
         "ID": "28",
-        "Alias": "28",
+        "Alias": "oho",
         "Radical": "⼔",
         "Strokes": 2,
         "Definitions": [
-            "spoon"
+            "spoon",
+            "ladle"
         ],
         "Readings": {
             "Japanese": "さじ",
@@ -869,12 +870,12 @@
     },
     {
         "ID": "52",
-        "Alias": "52",
+        "Alias": "aiso",
         "Radical": "⼧",
         "Strokes": 3,
         "Definitions": [
             "roof",
-            "house"
+            "house/cover"
         ],
         "Readings": {
             "Japanese": "うかんむり",
@@ -3762,7 +3763,7 @@
     },
     {
         "ID": "217",
-        "Alias": "217",
+        "Alias": "kowo",
         "Radical": "⾍",
         "Strokes": 6,
         "Definitions": [

@@ -222,12 +222,15 @@
                 const q = document.getElementById("search").value.toLowerCase();
                 const grid = document.getElementById("grid");
 
-                const filtered = kanjiData.filter(
-                    (k) =>
+                const filtered = kanjiData.filter((k) => {
+                    return (
                         k.Radical.includes(q) ||
                         (k.Alias || "").toLowerCase().includes(q) ||
-                        k.Definitions.some((d) => d.toLowerCase().includes(q)),
-                );
+                        k.Readings.Romaji.toLowerCase().includes(q) ||
+                        k.Readings.Japanese.toLowerCase().includes(q) ||
+                        k.Definitions.some((d) => d.toLowerCase().includes(q))
+                    );
+                });
 
                 grid.innerHTML = filtered
                     .map(
